@@ -13,5 +13,10 @@ namespace ASPFinal
         {
 
         }
+
+        protected void btnTemp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Employee.aspx");
+        }
     }
 }

@@ -1,0 +1,201 @@
+﻿body {
+    background-color: lightgrey;
+}
+/*
+    Default Page
+*/
+#lbPermClosed, #lbCurrentlyClosed {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+#ClosedStores {
+    margin-top: 30px;
+    margin-left: 550px;
+}
+#ClosedLabels {
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+#lblCurrentClosed{
+    padding-right: 80px;
+    font-family: 'Franklin Gothic';
+}
+#lblPermClosed {
+    padding-left: 10px;
+    font-family: 'Franklin Gothic';
+}
+#EnterLoyalty{
+    margin-left: 580px;
+    padding-top: 250px;
+}
+#EnterStore{
+    margin-left: 580px;
+}
+#ddlStore{
+    margin-top: 5px;
+    margin-left: 71px;
+    width: 204px;
+}
+#btnFindStore{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 320px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#tbLoyaltyNumber {
+    width: 200px;
+    height: 25px;
+}
+#lblLoyalty, #lblStore {
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+/*
+    Orders Page
+*/
+#SelectedStore {
+    text-align: center;
+    font-family: 'Franklin Gothic';
+    font-weight: bold;
+    margin-top: 20px;
+}
+#lblProducts, #lblQuantity {
+    font-family: 'Franklin Gothic';
+    font-weight: bold;
+}
+#ddlProducts {
+    width: 200px;
+    height: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+    margin-top: 50px
+}
+#tbQuantity {
+    width: 50px;
+    height: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#SelectProducts{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#btnRemoveSelected, #btnRemoveAll, #btnPlaceOrder {
+    text-align: center;
+    width: 120px;
+    height: 75px;
+    margin-left: 820px;
+    margin-top: 5px;
+}
+#btnRemoveSelected{
+    margin-top: 5px;
+}
+#lbSelectedItems {
+    width: 300px;
+    height: 300px;
+}
+#ListBox {
+    margin-left: 500px;
+    margin-top: -275px;
+}
+#btnAddItem {
+    width: 125px;
+    height: 31px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#btnPlaceOrder{
+    margin-top: 150px;
+    margin-left: 820px;
+}
+/*
+    Review Page
+*/
+#lblYourOrderNum, #lblOrderNumber, #ReviewStatus {
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#ReviewOrderNumber, #ReviewStatus {
+    margin-top: 150px;
+    text-align: center;
+}
+#ReviewLabelProducts, #ReviewStatus {
+    text-align: center;
+    margin-top: 25px;
+}
+#lbYourProducts{
+    width: 300px;
+    height: 300px;
+}
+#ReviewStatus{
+    margin-left: 150px;
+    margin-top: -18px;
+}
+#ReviewOrderNumber {
+    margin-right: 175px;
+}
+#btnBackToFront{
+    margin-left: 612px;
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#ListBoxProducts{
+    margin-top: 10px;
+}
+/*
+    Employee Page
+*/
+#EmplOpenOrders{
+    margin-top: 50px;
+    text-align: center;
+}
+#lblOpenOrders{
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#ddlOrderNum, #EmplLblOrderNums {
+    width: 250px;
+    height: 30px;
+    margin-left: 250px;
+    text-align: center;
+}
+#EmployeeSelectedProducts {
+    margin-left: 650px;
+    margin-top: -60px;
+}
+#lbSelectedProducts{
+    width: 200px;
+    height: 200px;
+}
+#EmplButtonsAndStatus {
+    margin-left: 950px;
+    margin-top: -225px;
+}
+#EmplLblOrderNums {
+    margin-top: 50px;
+}
+#lbSelectedProducts{
+    margin-top: 10px;
+}
+#btnCloseOrder, #btnReopenOrder{
+    width: 150px;
+    height: 90px;
+    margin-top: 10px;
+}
+#lblSelectedProducts{
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+}
+#EmplLblSelectedProducts{
+    margin-left: 38px;
+}

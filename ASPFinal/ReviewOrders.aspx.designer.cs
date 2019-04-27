@@ -31,13 +31,13 @@ namespace ASPFinal {
         protected global::System.Web.UI.WebControls.Label lblYourOrderNum;
         
         /// <summary>
-        /// lbYourProducts control.
+        /// lblOrderNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lbYourProducts;
+        protected global::System.Web.UI.WebControls.Label lblOrderNumber;
         
         /// <summary>
         /// lblOrderStatus control.
@@ -49,6 +49,33 @@ namespace ASPFinal {
         protected global::System.Web.UI.WebControls.Label lblOrderStatus;
         
         /// <summary>
+        /// lblStatusOpenClosed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatusOpenClosed;
+        
+        /// <summary>
+        /// lblProducts control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProducts;
+        
+        /// <summary>
+        /// lbYourProducts control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox lbYourProducts;
+        
+        /// <summary>
         /// btnBackToFront control.
         /// </summary>
         /// <remarks>
@@ -56,5 +83,14 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnBackToFront;
+        
+        /// <summary>
+        /// btnTemp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnTemp;
     }
 }

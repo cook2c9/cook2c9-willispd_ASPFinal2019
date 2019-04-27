@@ -5,16 +5,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Employees</title>
+        <link rel ="stylesheet" type="text/css" href="stylesheet.css"/>
 </head>
 <body>
     <form id="frmEmployee" runat="server">
         <div>
-            <asp:DropDownList ID="ddlOrderNum" runat="server" />
-            <asp:ListBox ID="lbSelectedProducts" runat="server" />
-            <asp:Label ID="lblCurrentStatus" runat="server" Text="Label" />
-            <asp:Button ID="btnCloseOrder" runat="server" Text="Close Order" />
-            <asp:Button ID="btnReopenOrder" runat="server" Text="Reopen Order" />
-        </div>
+            <div id="EmplOpenOrders">
+                <asp:Label ID="lblOpenOrders" runat="server" Text="Open Orders:" />
+            </div>
+            <div id="EmplContent">
+                <div id="EmplLblOrderNums">
+                    <asp:Label ID="lblOrderNums" runat="server" Text="Order Numbers:" />
+                </div>
+                <asp:DropDownList ID="ddlOrderNum" runat="server"/>
+                <div id="EmployeeSelectedProducts">
+                    <div id="EmplLblSelectedProducts">
+                        <asp:Label ID="lblSelectedProducts" runat="server" Text="Selected Products" />
+                    </div>
+                    <asp:ListBox ID="lbSelectedProducts" runat="server" />
+                </div>
+                <div id="EmplButtonsAndStatus">
+                    <div id="EmplStatus">
+                    <asp:Label ID="lblCurrentStatus" runat="server" Text="Status:" />
+                    <asp:Label ID="lblStatusOpenClosed" runat="server" Text="<>" />
+                </div>
+                    <div id="EmplButtonClose">
+                        <asp:Button ID="btnCloseOrder" runat="server" Text="Close Order" />
+                    </div>
+                    <asp:Button ID="btnReopenOrder" runat="server" Text="Reopen Order" />
+                </div>
+            </div>
+    </div>
     </form>
 </body>
 </html>

@@ -22,6 +22,24 @@ namespace ASPFinal {
         protected global::System.Web.UI.HtmlControls.HtmlForm frmEmployee;
         
         /// <summary>
+        /// lblOpenOrders control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOpenOrders;
+        
+        /// <summary>
+        /// lblOrderNums control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOrderNums;
+        
+        /// <summary>
         /// ddlOrderNum control.
         /// </summary>
         /// <remarks>
@@ -29,6 +47,15 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlOrderNum;
+        
+        /// <summary>
+        /// lblSelectedProducts control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSelectedProducts;
         
         /// <summary>
         /// lbSelectedProducts control.
@@ -47,6 +74,15 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCurrentStatus;
+        
+        /// <summary>
+        /// lblStatusOpenClosed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatusOpenClosed;
         
         /// <summary>
         /// btnCloseOrder control.

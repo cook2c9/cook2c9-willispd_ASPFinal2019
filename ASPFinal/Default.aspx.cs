@@ -13,5 +13,10 @@ namespace ASPFinal
         {
 
         }
+
+        protected void btnFindStore_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Orders.aspx");
+        }
     }
 }

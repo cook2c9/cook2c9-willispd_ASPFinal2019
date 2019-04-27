@@ -22,6 +22,15 @@ namespace ASPFinal {
         protected global::System.Web.UI.HtmlControls.HtmlForm frmDefault;
         
         /// <summary>
+        /// lblLoyalty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblLoyalty;
+        
+        /// <summary>
         /// tbLoyaltyNumber control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbLoyaltyNumber;
+        
+        /// <summary>
+        /// lblStore control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStore;
         
         /// <summary>
         /// ddlStore control.
@@ -47,6 +65,24 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnFindStore;
+        
+        /// <summary>
+        /// lblCurrentClosed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCurrentClosed;
+        
+        /// <summary>
+        /// lblPermClosed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblPermClosed;
         
         /// <summary>
         /// lbCurrentlyClosed control.

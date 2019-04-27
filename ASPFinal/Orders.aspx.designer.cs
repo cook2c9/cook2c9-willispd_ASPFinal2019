@@ -22,6 +22,33 @@ namespace ASPFinal {
         protected global::System.Web.UI.HtmlControls.HtmlForm frmOrders;
         
         /// <summary>
+        /// lblStoreOrders control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStoreOrders;
+        
+        /// <summary>
+        /// lblSelectedStore control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSelectedStore;
+        
+        /// <summary>
+        /// lblProducts control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProducts;
+        
+        /// <summary>
         /// ddlProducts control.
         /// </summary>
         /// <remarks>
@@ -29,6 +56,15 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlProducts;
+        
+        /// <summary>
+        /// lblQuantity control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblQuantity;
         
         /// <summary>
         /// tbQuantity control.
@@ -49,6 +85,15 @@ namespace ASPFinal {
         protected global::System.Web.UI.WebControls.Button btnAddItem;
         
         /// <summary>
+        /// btnPlaceOrder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPlaceOrder;
+        
+        /// <summary>
         /// btnRemoveSelected control.
         /// </summary>
         /// <remarks>
@@ -65,15 +110,6 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnRemoveAll;
-        
-        /// <summary>
-        /// btnPlaceOrder control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPlaceOrder;
         
         /// <summary>
         /// lbSelectedItems control.
