@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Employee.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Orders.aspx" />
     <Content Include="ReviewOrders.aspx" />
     <Content Include="stylesheet.css" />
@@ -88,6 +89,9 @@
     </Compile>
     <Compile Include="Employee.aspx.designer.cs">
       <DependentUpon>Employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Orders.aspx.cs">
       <DependentUpon>Orders.aspx</DependentUpon>
