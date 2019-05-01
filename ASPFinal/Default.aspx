@@ -10,9 +10,14 @@
 <body>
     <form id="frmDefault" runat="server">
         <div id="banner">
+            <div id="KroMart">
+                <asp:Label ID="lblKromart" runat="server" Text="Kro Mart" />
+            </div>
+            <asp:Image ID="imgBanner" runat="server" src="images/banner.png"/>
         </div>
         <div accesskey="text">
             <div id ="EnterLoyalty">
+                 <h3 id="defaultH3">Please enter your loyalty information and select a store to shop at.</h3>
                 <asp:Label ID="lblLoyalty" runat="server" Text="Loyalty Number:"></asp:Label>
                 <asp:TextBox ID="tbLoyaltyNumber" runat="server" />
             </div>

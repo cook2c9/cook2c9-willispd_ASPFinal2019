@@ -10,6 +10,12 @@
 <body>
     <form id="frmReviewOrder" runat="server">
         <div>
+            <div id="banner">
+            <div id="KroMart">
+                <asp:Label ID="lblKromart" runat="server" Text="Kro Mart" />
+            </div>
+            <asp:Image ID="imgBanner" runat="server" src="images/banner.png"/>
+        </div>
             <div id="ReviewOrderNumber">
                 <asp:Label ID="lblYourOrderNum" runat="server" Text="Your Order Number: " />
                 <asp:Label ID="lblOrderNumber" runat="server" Text="<>" />

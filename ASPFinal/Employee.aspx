@@ -9,7 +9,13 @@
 </head>
 <body>
     <form id="frmEmployee" runat="server">
-        <div>
+       <div>
+            <div id="banner">
+            <div id="KroMart">
+                <asp:Label ID="lblKromart" runat="server" Text="Kro Mart" />
+            </div>
+            <asp:Image ID="imgBanner" runat="server" src="images/banner.png"/>
+        </div>
             <div id="EmplOpenOrders">
                 <asp:Label ID="lblOpenOrders" runat="server" Text="Open Orders:" />
             </div>

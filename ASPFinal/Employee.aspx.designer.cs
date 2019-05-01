@@ -22,6 +22,24 @@ namespace ASPFinal {
         protected global::System.Web.UI.HtmlControls.HtmlForm frmEmployee;
         
         /// <summary>
+        /// lblKromart control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblKromart;
+        
+        /// <summary>
+        /// imgBanner control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgBanner;
+        
+        /// <summary>
         /// lblOpenOrders control.
         /// </summary>
         /// <remarks>

@@ -8,8 +8,14 @@
         <link rel ="stylesheet" type="text/css" href="stylesheet.css"/>
 </head>
 <body>
-    <form id="frmOrders" runat="server">
+   <form id="frmOrders" runat="server">
         <div>
+        <div id="banner">
+            <div id="KroMart">
+                <asp:Label ID="lblKromart" runat="server" Text="Kro Mart" />
+            </div>
+            <asp:Image ID="imgBanner" runat="server" src="images/banner.png"/>
+        </div>
             <div id="SelectedStore">
                 <asp:Label ID="lblStoreOrders" runat="server" Text="Store:" />
                 <asp:Label ID="lblSelectedStore" runat="server" />
