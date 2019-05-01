@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div id="BackToFront">
-                <asp:Button ID="btnBackToFront" runat="server" Text="Back To Front" />
+                <asp:Button ID="btnBackToFront" runat="server" Text="Back To Front" OnClick="btnBackToFront_Click"/>
             </div>
             <asp:Button ID="btnTemp" runat="server" Text="Temporary" OnClick="btnTemp_Click" />
         </div>

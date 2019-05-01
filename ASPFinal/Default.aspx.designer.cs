@@ -58,6 +58,15 @@ namespace ASPFinal {
         protected global::System.Web.UI.WebControls.DropDownList ddlStore;
         
         /// <summary>
+        /// connstring1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource connstring1;
+        
+        /// <summary>
         /// btnFindStore control.
         /// </summary>
         /// <remarks>
@@ -92,6 +101,15 @@ namespace ASPFinal {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox lbCurrentlyClosed;
+        
+        /// <summary>
+        /// SqlDataSource1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
         
         /// <summary>
         /// lbPermClosed control.

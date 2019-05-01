@@ -30,9 +30,9 @@
                     <asp:Label ID="lblStatusOpenClosed" runat="server" Text="<>" />
                 </div>
                     <div id="EmplButtonClose">
-                        <asp:Button ID="btnCloseOrder" runat="server" Text="Close Order" />
+                        <asp:Button ID="btnCloseOrder" runat="server" Text="Close Order" OnClick="btnCloseOrder_Click"/>
                     </div>
-                    <asp:Button ID="btnReopenOrder" runat="server" Text="Reopen Order" />
+                    <asp:Button ID="btnReopenOrder" runat="server" Text="Reopen Order" OnClick="btnReopenOrder_Click"/>
                 </div>
             </div>
     </div>

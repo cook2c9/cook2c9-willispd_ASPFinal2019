@@ -16,19 +16,22 @@
             </div>
             <div id="SelectProducts">
                 <asp:Label ID="lblProducts" runat="server" Text="Products:"></asp:Label>
-                <asp:DropDownList ID="ddlProducts" runat="server" />
+                <asp:DropDownList ID="ddlProducts" runat="server" DataSourceID="SqlDataSource1" DataTextField="Description" DataValueField="Description" />
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="Select distinct Description
+From tProduct
+Where not LEN(Description)=0"></asp:SqlDataSource>
                 <asp:Label ID="lblQuantity" runat="server" Text="Quantity:"></asp:Label>
-                <asp:TextBox ID="tbQuantity" runat="server" />
-                <asp:Button ID="btnAddItem" runat="server" Text="Add Item" />
+                <asp:TextBox ID="tbQuantity" runat="server" >1</asp:TextBox>
+                <asp:Button ID="btnAddItem" runat="server" Text="Add Item" OnClick="btnAddItem_Click"/>
             </div>
             <div id="PlaceOrder">
                 <asp:Button ID="btnPlaceOrder" runat="server" Text="Place Order" OnClick="btnPlaceOrder_Click" />
             </div>
             <div id="RemoveSelectedItems">
-                <asp:Button ID="btnRemoveSelected" runat="server" Text="Remove Selected" />
+                <asp:Button ID="btnRemoveSelected" runat="server" Text="Remove Selected" OnClick="btnRemoveSelected_Click"/>
             </div>
             <div id="RemoveAllItems">
-                <asp:Button ID="btnRemoveAll" runat="server" Text="Remove All" />
+                <asp:Button ID="btnRemoveAll" runat="server" Text="Remove All" OnClick="btnRemoveAll_Click"/>
             </div>
             <div id="ListBox">
                 <asp:ListBox ID="lbSelectedItems" runat="server" />

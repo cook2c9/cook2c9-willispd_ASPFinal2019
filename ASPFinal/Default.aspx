@@ -18,7 +18,13 @@
             </div>
             <div id="EnterStore">
                 <asp:Label ID="lblStore" runat="server" Text="Store:"></asp:Label>
-                <asp:DropDownList ID="ddlStore" runat="server"/>
+                <asp:DropDownList ID="ddlStore" runat="server" DataSourceID="connstring1" DataTextField="Store" DataValueField="Store"/>
+                <asp:SqlDataSource ID="connstring1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="
+select Store
+from tStoreHistory
+inner join tStore on  tStore.StoreID=tStoreHistory.StoreID
+where tStoreHistory.StoreStatusID in ('1','9','11');
+"></asp:SqlDataSource>
             </div>
             <asp:Button ID="btnFindStore" runat="server" Text="Find Store" OnClick="btnFindStore_Click" />
             <div id ="ClosedLabels">
@@ -26,8 +32,15 @@
                 <asp:Label ID="lblPermClosed" runat="server" Text="Permanently Closed" />
             </div>
             <div id="ClosedStores">
-                <asp:ListBox ID="lbCurrentlyClosed" runat="server" />
-                <asp:ListBox ID="lbPermClosed" runat="server" />
+                <asp:ListBox ID="lbCurrentlyClosed" runat="server" DataSourceID="SqlDataSource1" DataTextField="Store" DataValueField="Store" />
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="
+select Store
+from tStoreHistory
+inner join tStore on  tStore.StoreID=tStoreHistory.StoreID
+where tStoreHistory.StoreStatusID in ('2','3','4','5','6','7','8','10','12','13');
+
+"></asp:SqlDataSource>
+                <asp:ListBox ID="lbPermClosed" runat="server" DataSourceID="SqlDataSource1" DataTextField="Store" DataValueField="Store" />
             </div>
         </div>
     </form>
