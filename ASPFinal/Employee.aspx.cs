@@ -21,29 +21,30 @@ namespace ASPFinal
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-
-            var list = (List<String>)Session["FinalProductList"];
-
-            ddlOrderNum.Items.Add(Session["OrderNumber"].ToString());//adds items to the drop down list of orders
             lblStatusOpenClosed.Text = Session["OrderStatus"].ToString();
-
-            foreach (var x in list)
+            if (!Page.IsPostBack)
             {
-                lbSelectedProducts.Items.Add(x);
-                //Response.Write(x);-- test for Product storage
+                var list = (List<String>)Session["FinalProductList"];
+
+                ddlOrderNum.Items.Add(Session["OrderNumber"].ToString());//adds items to the drop down list of orders
+
+                foreach (var x in list)
+                {
+                    lbSelectedProducts.Items.Add(x);
+                    //Response.Write(x);-- test for Product storage
+                }
             }
         }
 
         protected void btnCloseOrder_Click(object sender, EventArgs e)//Close the order
         {
             Session["OrderStatus"] = "Closed";
-            Response.Redirect("ReviewOrders.aspx");
+            lblStatusOpenClosed.Text = Session["OrderStatus"].ToString();
         }
         protected void btnReopenOrder_Click(object sender, EventArgs e)//Open the order
         {
             Session["OrderStatus"] = "Open";
-            Response.Redirect("ReviewOrders.aspx");
+            lblStatusOpenClosed.Text = Session["OrderStatus"].ToString();
         }
     }
 }
