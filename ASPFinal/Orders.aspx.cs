@@ -57,7 +57,7 @@ namespace ASPFinal
 
         protected void btnRemoveSelected_Click(object sender, EventArgs e)
         {
-            SelectedProducts = ddlProducts.SelectedValue;
+            SelectedProducts = lbSelectedItems.SelectedValue;
 
             lbSelectedItems.Items.Remove(SelectedProducts);//remove one item
 

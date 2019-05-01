@@ -1,4 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Orders.aspx.cs" Inherits="ASPFinal.Orders" %>
+﻿<!--
+    Name: Connor Cook and Patrick Willison
+    Assignment: ASP Final Spring Semester 2019 UC Clermont
+    Desciption: The classes used to design the Grocery Store Simulator webpage
+    Sources: Assigned by Bill Nicholson
+    -->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Orders.aspx.cs" Inherits="ASPFinal.Orders" %>
 
 <!DOCTYPE html>
 
